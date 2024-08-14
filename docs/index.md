@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "midjourney素材文档库"
   text: "基于vitepress的文档"
-  tagline: My great project tagline
+  tagline: AIGC 素材积累
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 快速入门
+      link: /introduce
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text:  midjourney 指令
+      link: /instruction-rules
 
 features:
   - title: prompt 的构成
