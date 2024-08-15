@@ -2,9 +2,6 @@
 
 Basic parameters - 控制图像的基础样式学习
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
-
-
 ## iw权重
 
 垫图一般需要相似风格的图片，我们要加iw参数， 2最大， 比如 --iw 2
