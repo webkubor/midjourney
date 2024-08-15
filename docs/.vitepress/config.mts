@@ -6,10 +6,9 @@ export default defineConfig({
   title: " webkubor",
   description: "关于midjourney的学习文档",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '联系我', link: '/contact' }
+      { text: '联系我', link: '/me/contact' }
     ],
 
     sidebar: [
