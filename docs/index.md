@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "midjourney素材文档库"
-  text: "基于vitepress的文档"
+  text: "Midjourney是一款人工智能程序，可根据文本生成图像"
   tagline: AIGC 素材积累
   actions:
     - theme: brand
@@ -22,4 +22,3 @@ features:
   - title:  创作思路
     details: 关于创作的思路
 ---
-

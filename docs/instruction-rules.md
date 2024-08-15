@@ -1,85 +1,40 @@
-# Markdown Extension Examples
+# 基本指令学习
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
-
-## Syntax Highlighting
+Basic parameters - 控制图像的基础样式学习
 
 VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
-**Input**
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+## iw权重
 
-**Output**
+垫图一般需要相似风格的图片，我们要加iw参数， 2最大， 比如 --iw 2
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
 
-## Custom Containers
 
-**Input**
+## Aspect Ratios 宽高
 
-```md
-::: info
-This is an info box.
-:::
+控制图片长宽比例，默认是1:1, --aspect, or --ar, 
 
-::: tip
-This is a tip.
-:::
+例如: 生成4:3的图片，--ar 4:3 ,大的壁纸我们生成 --ar：16:9
 
-::: warning
-This is a warning.
-:::
+## No
+控制图片中不要出现的元素使用--no,
+例如：--no dogs, 会尝试从图像中移除狗
 
-::: danger
-This is a dangerous warning.
-:::
+## Quality
+- 控制图片的精细质量程度 ，默认值是1，数值越大，越多细节吗，但渲染时间越长
+- --quality <.25, .5, 1, or 2> or --q <.25, .5, 1, or 2>
 
-::: details
-This is a details block.
-:::
-```
 
-**Output**
+## Seed
+ - 控制图片随机性，即相似度设置
+ - --seed <0-4294967295>
 
-::: info
-This is an info box.
-:::
 
-::: tip
-This is a tip.
-:::
+## Version
+-  切换算法模型版本，目前最新的是V5，默认是V4模型
+- --version or --v <1-5>
 
-::: warning
-This is a warning.
-:::
 
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+## Niji
+ 切换到动漫风格模型, --niji6(当前版本)

@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:  '/midjourney/',
-  title: "midjourney",
-  description: "基于vitepress 的文档",
+  title: " webkubor",
+  description: "关于midjourney的学习文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -17,13 +17,25 @@ export default defineConfig({
         text: '入门',
         items: [
           { text: '简介', link: '/introduce' },
-          { text: '指令规则', link: '/instruction-rules' }
+          { text: '基本指令-Prompt', link: '/prompts' },
+          { text: '指令规则-Rules', link: '/instruction-rules' },
+          { text: '风格指令-Reference', link: '/reference' }
+        ]
+      },
+      {
+        text: '人像',
+        items: [
+          { text: '摄影棚照片', link: '/people/photographs' },
         ]
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/webkubor/midjourney' }
-    ]
+    ],
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2024-present webkubor",
+    },
   }
 })
