@@ -5,7 +5,32 @@ export default defineConfig({
   base:  '/midjourney/',
   title: " webkubor",
   description: "关于midjourney的学习文档",
+  ignoreDeadLinks: true,
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    // 添加百度统计代码
+    [
+      "script",
+      {},
+      `
+      var _hmt = _hmt || [];
+      (function() {
+         var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?cc7c20a1cc944aa28c219467cd4def7c";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+      })();
+    `,
+    ],
+    ["meta", { name: "baidu-site-verification", content: "codeva-phM5FSU2JM" }],
+  ],
   themeConfig: {
+    search: {
+      provider: "local",
+    },
+    outline: {
+      level: [1, 3],
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '联系我', link: '/me/contact' }

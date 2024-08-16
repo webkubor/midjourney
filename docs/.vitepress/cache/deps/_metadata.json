@@ -1,29 +1,50 @@
 {
-  "hash": "f17cfe92",
-  "configHash": "c82f6473",
+  "hash": "096b7697",
+  "configHash": "4b9a7552",
   "lockfileHash": "844d6325",
-  "browserHash": "304a02bb",
+  "browserHash": "d10cec49",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.4.37/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "d9021c27",
+      "fileHash": "ab64ab48",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.3.8/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "cd2442a5",
+      "fileHash": "b119faa3",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@10.11.1_vue@3.4.37/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "7cccc425",
+      "fileHash": "196c9607",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+integrations@10.11.1_focus-trap@7.5.4_vue@3.4.37/node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "564a5501",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "7a97c0ce",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/.pnpm/minisearch@7.1.0/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "0641f56b",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-ZCQPJAVS": {
+      "file": "chunk-ZCQPJAVS.js"
+    },
     "chunk-Y7MNRLRP": {
       "file": "chunk-Y7MNRLRP.js"
     }
