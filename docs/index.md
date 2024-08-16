@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "midjourney素材文档库"
+  name: "midjourney教程"
   text: "AIGC 运用积累"
-  tagline: webkubor
+  tagline: 打造全网最优质的 AIGC 教程
   actions:
     - theme: brand
       text: 快速入门🏃‍♂️

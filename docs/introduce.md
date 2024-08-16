@@ -23,3 +23,6 @@ Midjourney架设在discord频道上，用户需先注册discord账号，然后�
 
 
 [我的 AI prompt 图册](https://www.yuque.com/webkubor/ai/uucs43usrxa0otwd)
+
+
+

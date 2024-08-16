@@ -3,11 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:  '/midjourney/',
-  title: " webkubor",
+  title: "Midjourney教程",
   description: "关于midjourney的学习文档",
   ignoreDeadLinks: true,
+  lastUpdated: true,
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+   ['link', { rel: 'icon', href: '/icon.ico' }],
     // 添加百度统计代码
     [
       "script",
@@ -49,7 +50,14 @@ export default defineConfig({
       {
         text: '人像',
         items: [
-          { text: '摄影棚照片', link: '/people/photographs' },
+          { text: '影棚多角度', link: '/people/photographs' },
+          { text: '人像角度', link: '/people/lens' },
+        ]
+      },
+      {
+        text: '进阶',
+        items: [
+          { text: '以图生图', link: '/advanced/graph' },
         ]
       }
     ],
