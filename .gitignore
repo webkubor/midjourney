@@ -9,7 +9,6 @@ lerna-debug.log*
 .env.development
 node_modules
 *.local
-dist
 components.d.ts
 
 # Editor directories and files
