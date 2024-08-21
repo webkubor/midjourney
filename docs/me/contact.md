@@ -12,6 +12,8 @@ outline: deep
 - 邮箱：webkubor@163.com
 - discord：webkubor
 - 小红书账号：[说书人司南烛](https://www.xiaohongshu.com/user/profile/5c3c1581000000000501835d)
+- 花瓣网：[司南烛](https://huaban.com/user/webkubor)
+- pinterest [苏梦城](https://www.pinterest.com/webkubor)
 
 期待与您的交流！
 <VPTeamMembers size="small" :members="members" />
