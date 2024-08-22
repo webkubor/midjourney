@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --host --port 5180",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs --port 8080"
   },

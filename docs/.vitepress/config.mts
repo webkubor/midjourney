@@ -65,11 +65,17 @@ export default defineConfig({
           { text: '图标生成', link: '/business/icon' },
           { text: '海报落地', link: '/business/poster' },
         ]
-      }
+      },
+      {
+        text: '其他',
+        items: [
+          { text: 'Stable Diffusion Web UI', link: '/other/stableDiffusion' }
+        ]
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/webkubor/midjourney' }
+      { icon: 'github', link: 'https://github.com/webkubor/midjourney' },
     ],
     footer: {
       message: "Released under the MIT License.",

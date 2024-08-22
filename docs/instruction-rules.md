@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # 基本指令学习
 
 Basic parameters - 控制图像的基础样式学习
