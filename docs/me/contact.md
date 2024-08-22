@@ -28,6 +28,7 @@ const members = [
     title: '作者',
     links: [
       { icon: 'github', link: 'https://github.com/webkubor' },
+      { icon: 'discord', link: 'https://discord.com/invite/MEMGsRvf' },
     ]
   }
 ]

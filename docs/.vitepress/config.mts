@@ -76,6 +76,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/webkubor/midjourney' },
+      { icon: 'discord', link: 'https://discord.com/invite/MEMGsRvf' },
     ],
     footer: {
       message: "Released under the MIT License.",
