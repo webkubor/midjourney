@@ -50,6 +50,7 @@ export default defineConfig({
         items: [
           { text: '影棚多角度', link: '/people/photographs' },
           { text: '人像角度', link: '/people/lens' },
+          { text: '数字动漫风格', link: '/people/anime' },
         ]
       },
       {
