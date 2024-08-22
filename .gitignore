@@ -9,8 +9,9 @@ lerna-debug.log*
 .env.development
 node_modules
 *.local
-dist
 components.d.ts
+dist
+cache
 
 # Editor directories and files
 .vscode/*
