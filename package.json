@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-      "docs:preview": "vitepress preview docs --port 8080"
+    "docs:preview": "vitepress preview docs --port 8080"
   },
   "name": "vitepressdoc",
   "version": "1.0.0",

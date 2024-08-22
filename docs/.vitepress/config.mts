@@ -43,13 +43,27 @@ export default defineConfig({
           { text: '简介', link: '/introduce' },
           { text: '基本指令-Prompt', link: '/prompts' },
           { text: '指令规则-Rules', link: '/instruction-rules' },
-          { text: '风格指令-Reference', link: '/reference' }
         ]
       },
       {
         text: '人像',
         items: [
-          { text: '摄影棚照片', link: '/people/photographs' },
+          { text: '影棚多角度', link: '/people/photographs' },
+          { text: '人像角度', link: '/people/lens' },
+        ]
+      },
+      {
+        text: '进阶',
+        items: [
+          { text: '以图生图', link: '/advanced/graph' },
+          { text: '风格指令-Reference', link: '/advanced/reference' }
+        ]
+      },
+      {
+        text: '商业落地',
+        items: [
+          { text: '图标生成', link: '/business/icon' },
+          { text: '海报落地', link: '/business/poster' },
         ]
       }
     ],

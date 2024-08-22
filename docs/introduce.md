@@ -15,6 +15,8 @@ outline: deep
 Midjourney架设在discord频道上，用户需先注册discord账号，然后进入Midjourney的discord频道。注册账号后，可在浏览器使用discord，也可下载其客户端或app端。使用时，通过给discord频道内的聊天机器人发送对应文本，聊天机器人返回对应的图片。
 
 
+![使用方式](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.8vmuf7tbp3.webp)
+
 ## 应用领域
 无论是用于创造运营海报、UI界面、3D设计、二次元、科幻场景、设计人物、NFT、城市建筑等，它都可以发挥作用，为设计师、艺术家等提供了丰富的创意和可能性。
 

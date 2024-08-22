@@ -20,9 +20,9 @@ outline: deep
  ```
   /imagine Bright orange California poppies drawn with colored pencils
  ```
+如下图所示
 
-
-
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.41xzj3doup.webp)
 
 ### 高阶指令
 更高级的提示可以包括一个或多个图像URL 、多个文本短语以及一个或多个参数。
