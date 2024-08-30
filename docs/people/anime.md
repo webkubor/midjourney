@@ -10,10 +10,9 @@ outline: deep
 ```
 In the style of an anime girl, long black hair with bangs and twin tails, holding a sword in the air, full-body shot, grey background, digital art in the style of Makoto Shinkai and Atey Ghailan, watercolor, ink splashes, digital painting, cinematic light effects, soft shadows, white lighting, epic composition, fantasy, sharp focus, high resolution
 ```
-### seed 4235040915
-![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/image.3uuro2bwgz.webp)
+####  seed 4235040915
 
-
-
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.67xeghwgjv.jpg)
 #### seed 604726586
-![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/image.7w6r2gis7j.webp)
+
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.6bh0e7ov7z.jpg)

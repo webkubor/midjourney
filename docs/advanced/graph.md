@@ -15,6 +15,11 @@ outline: deep
 
 但是这类做法只能做到描述的是大致相同的人物和风格,但是往往结果和给出的原图相去甚远!
 
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.6t722sthga.jpg)
+
+
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.9dcwffuxij.jpg)
+
 ## 垫图
 
 顾名思义,在图片上垫一层,具体如何垫呢?
@@ -31,9 +36,10 @@ outline: deep
 
 
 组合!
-
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.2h88v9ej7j.jpg)
 也就是垫图+ describe
 
 - 先用describe以图生文,你会拿到四组关键词,可以先生成看看,找到最理想的关键词组(这一步你拿到了 关键词 prompt和喜欢的图链接)
 - 利用垫图的格式将**图链接 + describe生成的理想关键词 + --iw 2**
 - 打工告成!
+![alt text](https://github.com/webkubor/picx-images-hosting/raw/master/blog/image.3d4qaps7n7.jpg)
